@@ -416,7 +416,7 @@ body{
 }  
 
  /*---HERO---*/
- /* @media screen and (max-width: 767px){  */
+  @media screen and (max-width: 767px){  
  .overlay-hero{
     width: 100%;  
     height: 432px;  
@@ -439,9 +439,10 @@ body{
  screen and (min-resolution: 192dpi) and (max-width: 767px),
  screen and (min-resolution: 2dppx) and (max-width: 767px){
     .overlay-hero {
-         background-image: url('../images/Dark-mb-bg@2x.jpg'); 
+      background-image: url('../images/Dark-mb-bg@2x.jpg'); 
     } 
-    .hero{
+}
+     .hero{
     padding-top: 112px;
     padding-bottom:112px ;
     text-align: center;
@@ -454,8 +455,9 @@ body{
     font-size: 36px;
     line-height: 1.11;
   
-} 
+}  
  } 
+
 
  @media screen and (min-width: 768px) {
     .overlay-hero{
@@ -473,6 +475,28 @@ body{
     background-position: center;
     background-size: cover; 
     }
+     /* .hero{
+    padding-top: 112px;
+    padding-bottom:112px ;
+    text-align: center;
+ }
+    .hero-title{
+    margin-top: 0;
+    margin-bottom: 90px;
+    color: var(--primary-white-color);
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 1.07;
+  
+}   */
+ 
+ @media screen and (min-device-pixel-ratio: 2) and (max-width: 768px),
+ screen and (min-resolution: 192dpi) and (max-width: 768px),
+ screen and (min-resolution: 2dppx) and (max-width: 768px) {
+    .overlay-hero {
+        background-image: url(../images/Dark-tab-bg@2x.jpg);
+    }
+}
      .hero{
     padding-top: 112px;
     padding-bottom:112px ;
@@ -486,16 +510,9 @@ body{
     font-size: 56px;
     line-height: 1.07;
   
-}  
- 
- @media screen and (min-device-pixel-ratio: 2) and (max-width: 768px),
- screen and (min-resolution: 192dpi) and (max-width: 768px),
- screen and (min-resolution: 2dppx) and (max-width: 768px) {
-    .overlay-hero {
-        background-image: url(../images/Dark-tab-bg@2x.jpg);
-    }
-}
+}   
  }
+
 @media screen and (min-width: 1200px) {
     .overlay-hero{
      /* max-width: 1440px;
@@ -512,7 +529,29 @@ body{
     background-position: center;
     background-size: cover; 
     }
-    .hero{
+    /* .hero{
+    padding-top: 192px;
+    padding-bottom:192px ;
+    text-align: center;
+ }
+ .hero-title{
+    margin-top: 0;
+    margin-bottom: 48px;
+    color: var(--primary-white-color);
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 1.07;
+  
+}  */
+ 
+ @media screen and (min-device-pixel-ratio: 2) and (max-width: 1200px),
+ screen and (min-resolution: 192dpi) and (max-width: 1200px),
+ screen and (min-resolution: 2dppx) and (max-width: 1200px) {
+    .overlay-hero {
+        background-image: url(../images/Dark-des-bg@2x.jpg);
+    }
+}
+.hero{
     padding-top: 192px;
     padding-bottom:192px ;
     text-align: center;
@@ -526,14 +565,6 @@ body{
     line-height: 1.07;
   
 } 
- 
- @media screen and (min-device-pixel-ratio: 2) and (max-width: 1200px),
- screen and (min-resolution: 192dpi) and (max-width: 1200px),
- screen and (min-resolution: 2dppx) and (max-width: 1200px) {
-    .overlay-hero {
-        background-image: url(../images/Dark-des-bg@2x.jpg);
-    }
-}
 .button{ 
     height:56px;
 }
