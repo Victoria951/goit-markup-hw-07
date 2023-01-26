@@ -439,10 +439,7 @@ body{
  screen and (min-resolution: 192dpi) and (max-width: 767px),
  screen and (min-resolution: 2dppx) and (max-width: 767px){
     .overlay-hero {
-        background-image: linear-gradient(
-            rgba(46, 47, 66, 0.7),
-         rgba(46, 47, 66, 0.7)),
-         url('../images/Dark-mb-bg@2.jpg'); 
+        background-image: url('../images/Dark-mb-bg@2.jpg'); 
     } 
 }
 
