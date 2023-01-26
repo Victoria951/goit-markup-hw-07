@@ -439,7 +439,7 @@ body{
  screen and (min-resolution: 192dpi) and (max-width: 767px),
  screen and (min-resolution: 2dppx) and (max-width: 767px){
     .overlay-hero {
-        background-image: url('../images/Dark-mb-bg@2.jpg'); 
+        background-image: url(../images/Dark-mb-bg@2x.jpg);
     } 
 }
 
