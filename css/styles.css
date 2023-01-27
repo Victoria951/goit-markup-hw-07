@@ -416,7 +416,7 @@ body{
 }  
 
  /*---HERO---*/
-  @media screen and (max-width: 767px){  
+  @media screen and (max-width: 767px){   
  .overlay-hero{
     width: 100%;  
     height: 432px;  
@@ -439,11 +439,14 @@ body{
  screen and (min-resolution: 192dpi) and (max-width: 767px),
  screen and (min-resolution: 2dppx) and (max-width: 767px){
     .overlay-hero {
-        background-image: url(../images/Dark-mb-bg@2x.jpg);
+        background-image: linear-gradient(
+            rgba(46, 47, 66, 0.7),
+         rgba(46, 47, 66, 0.7)),
+         url('../images/Dark-mb-bg@2x.jpg');
     } 
 }
 
-    .hero{
+     .hero{
     padding-top: 112px;
     padding-bottom:112px ;
     text-align: center;
@@ -456,15 +459,15 @@ body{
     font-size: 36px;
     line-height: 1.11;
   
-}  
- } 
+}   
+  }
 
 
  @media screen and (min-width: 768px) {
     .overlay-hero{
     /* min-width: 768px;
-     height: 435px;    */
-     margin-left: auto;
+    height: 435px;     */
+    margin-left: auto;
     margin-right: auto;
     outline: 1px solid #000000;
     background-color: var(--primary-slate-color); 
