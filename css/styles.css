@@ -362,7 +362,7 @@ body{
 
     .aut-nav .link{
         color:var(--primary-text-color);
-        font-size: 12px;
+        font-size: 13px;
         line-height: 1.33;
         letter-spacing: 0.04em;
         text-decoration: none;
@@ -415,11 +415,24 @@ body{
 
 }  
 
- /*---HERO---*/
-  @media screen and (max-width: 767px){   
- .overlay-hero{
+ /*---HERO---*/ 
+    .hero{
+        padding-top: 112px;
+        padding-bottom:112px ;
+        text-align: center;
+     }
+
+    .hero-title{
+        margin-top: 0;
+        margin-bottom: 80px;
+        color: var(--primary-white-color);
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 1.11;
+      
+    }  
+    .overlay-hero{
     width: 100%;  
-    height: 432px;  
     margin-left: auto;
     margin-right: auto;
     outline: 1px solid #000000;
@@ -440,33 +453,19 @@ body{
  screen and (min-resolution: 2dppx) and (max-width: 767px){
     .overlay-hero {
         background-image: linear-gradient(
-            rgba(46, 47, 66, 0.7),
-         rgba(46, 47, 66, 0.7)),
-         url('../images/Dark-mb-bg@2x.jpg');
+        rgba(46, 47, 66, 0.7),
+     rgba(46, 47, 66, 0.7)),
+     url('../images/Dark-mb-bg@2x.jpg');
     } 
 }
 
-     .hero{
-    padding-top: 112px;
-    padding-bottom:112px ;
-    text-align: center;
- }
-  .hero-title{
-    margin-top: 0;
-    margin-bottom: 80px;
-    color: var(--primary-white-color);
-    font-weight: 600;
-    font-size: 36px;
-    line-height: 1.11;
-  
-}   
-  }
+
 
 
  @media screen and (min-width: 768px) {
     .overlay-hero{
-    /* min-width: 768px;
-    height: 435px;     */
+    min-width: 768px;
+    height: 435px;      
     margin-left: auto;
     margin-right: auto;
     outline: 1px solid #000000;
@@ -479,28 +478,6 @@ body{
     background-position: center;
     background-size: cover; 
     }
-     /* .hero{
-    padding-top: 112px;
-    padding-bottom:112px ;
-    text-align: center;
- }
-    .hero-title{
-    margin-top: 0;
-    margin-bottom: 90px;
-    color: var(--primary-white-color);
-    font-weight: 600;
-    font-size: 56px;
-    line-height: 1.07;
-  
-}   */
- 
- @media screen and (min-device-pixel-ratio: 2) and (max-width: 768px),
- screen and (min-resolution: 192dpi) and (max-width: 768px),
- screen and (min-resolution: 2dppx) and (max-width: 768px) {
-    .overlay-hero {
-        background-image: url(../images/Dark-tab-bg@2x.jpg);
-    }
-}
      .hero{
     padding-top: 112px;
     padding-bottom:112px ;
@@ -514,13 +491,27 @@ body{
     font-size: 56px;
     line-height: 1.07;
   
-}   
- }
+}  
+}
+ 
+ @media screen and (min-device-pixel-ratio: 2) and (max-width: 768px),
+ screen and (min-resolution: 192dpi) and (max-width: 768px),
+ screen and (min-resolution: 2dppx) and (max-width: 768px) {
+    .overlay-hero {
+        background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+     rgba(46, 47, 66, 0.7)),
+     url(../images/Dark-tab-bg@2x.jpg);
+    }
+}
+    
+
+
 
 @media screen and (min-width: 1200px) {
     .overlay-hero{
-     /* max-width: 1440px;
-    height: 600px; */
+    max-width: 1440px;
+    height: 600px; 
     margin-left: auto;
     margin-right: auto;
     outline: 1px solid #000000;
@@ -533,12 +524,12 @@ body{
     background-position: center;
     background-size: cover; 
     }
-    /* .hero{
+     .hero{
     padding-top: 192px;
     padding-bottom:192px ;
     text-align: center;
  }
- .hero-title{
+   .hero-title{
     margin-top: 0;
     margin-bottom: 48px;
     color: var(--primary-white-color);
@@ -546,33 +537,22 @@ body{
     font-size: 56px;
     line-height: 1.07;
   
-}  */
- 
+}    
+    .button{ 
+    height:56px;
+  }
+}
  @media screen and (min-device-pixel-ratio: 2) and (max-width: 1200px),
  screen and (min-resolution: 192dpi) and (max-width: 1200px),
  screen and (min-resolution: 2dppx) and (max-width: 1200px) {
     .overlay-hero {
-        background-image: url(../images/Dark-des-bg@2x.jpg);
+        background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+     rgba(46, 47, 66, 0.7)),
+     url(../images/Dark-des-bg@2x.jpg);
     }
-}
-.hero{
-    padding-top: 192px;
-    padding-bottom:192px ;
-    text-align: center;
- }
- .hero-title{
-    margin-top: 0;
-    margin-bottom: 48px;
-    color: var(--primary-white-color);
-    font-weight: 600;
-    font-size: 56px;
-    line-height: 1.07;
-  
-} 
-.button{ 
-    height:56px;
-}
-}
+    }
+
 
  /*---BUTTON---*/
 
