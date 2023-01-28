@@ -103,12 +103,12 @@ body{
         position: fixed;
         width: 100vw;
         height: 100vh;
-        max-height: 796px;
+        /* max-height: 796px; */
         z-index: 1000;
         top: 0;
         left:0;
         background-color: var(--primary-white-color);
-        box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5);
+        /* box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5); */
         opacity: 0;
         visibility: hidden;
         pointer-events: none; 
@@ -167,7 +167,7 @@ body{
     padding: 0px;
     row-gap: 40px; 
     width: 100%;
-    /* margin-bottom: 284px;  */
+    /* margin-bottom: 284px;   */
 }
 
 .mobile-menu-link{
@@ -184,7 +184,7 @@ body{
     
 .mobile-menu-contact{
     width: 100%;
-    max-width: 337px;
+    /* max-width: 337px; */
     padding-bottom: 48px;
 
 }
